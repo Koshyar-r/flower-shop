@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="images/sunflower.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d51f589380.js"></script>
+    <title>Buy a Flower Today</title>
+</head>
+<body>
+    <a href="https://www.flaticon.com/free-icons/flower" title="flower icons"></a>
+    
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Flower</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#review" class="nav__link">Review</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-user"></a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh Flowers</h3>
+            <p class="subtitle">Natural & Beautiful Flowers</p>
+            <p class="description">Need flowers delivered immediately? All of our flowers are hand prepared and delivered next day. We make it easy for you to give the perfect gift by providing next day birthday, anniversary, or Valentine’s Day flower delivery.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <h2 class="section__title">
+            Who Are We? <br> <i>Let's Find Out!</i>
+        </h2>
+        <div class="about__container container grid">
+            <div class="about__group">
+                <img src="images/plant-2771_1920.jpg" alt="" class="about__img" draggable="false">
+                
+                <div class="about__card">
+                    <h3 class="about__card-title">Chrome finishes</h3>
+                    <p class="about__card-description">
+                        You'll love it
+                    </p>
+                </div>
+            </div>
+
+            <div class="about__data">
+                <h2 class="about__title">
+                    Let us<br> Introduce Ourselves
+                </h2>
+
+                <p class="about__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloremque nemo culpa quisquam laboriosam.
+                </p>
+
+                <a href="#" class="btn">Find out more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured section" id="products">
+        <h2 class="section__title">
+            Our Beautiful Flowers
+        </h2>
+
+        <div class="featured__container container">
+            <ul class="featured__filters">
+                <li>
+                    <button class="featured__item active-featured" data-filter="all">
+                        <span>All</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".rose">
+                        Rose
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".lily">
+                        Lily
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".carnation">
+                        Carnation
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".orchid">
+                        Orchid
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".hyacinth">
+                        Hyacinth
+                    </button>
+                </li>
+            </ul>
+
+            <div class="featured__content grid">
+                <article class="featured__card mix rose">
+
+                    <h1 class="featured__title">Rose</h1>
+
+                    <h3 class="featured__subtitle">For dating</h3>
+
+                    <img src="images/rose-2-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix carnation">
+
+                    <h1 class="featured__title">Carnation</h1>
+
+                    <h3 class="featured__subtitle">You'll love it</h3>
+
+                    <img src="images/carnation-1-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$39</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix lily">
+
+                    <h1 class="featured__title">Lily</h1>
+
+                    <h3 class="featured__subtitle">Mothers love it</h3>
+
+                    <img src="images/lily-1-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$50</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix rose">
+
+                    <h1 class="featured__title">Rose</h1>
+
+                    <h3 class="featured__subtitle">For dating</h3>
+
+                    <img src="images/rose-3-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$15</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix carnation">
+
+                    <h1 class="featured__title">Carnation</h1>
+
+                    <h3 class="featured__subtitle">You'll love it</h3>
+
+                    <img src="images/carnation-2-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$99</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix lily">
+
+                    <h1 class="featured__title">Lily</h1>
+
+                    <h3 class="featured__subtitle">Mothers love it</h3>
+
+                    <img src="images/lily-2-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$99</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix orchid">
+
+                    <h1 class="featured__title">Orchid</h1>
+
+                    <h3 class="featured__subtitle">Fury and beauty together</h3>
+
+                    <img src="images/orchid-1-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$49</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix hyacinth">
+
+                    <h1 class="featured__title">Hyacinth</h1>
+
+                    <h3 class="featured__subtitle">Even men like it</h3>
+
+                    <img src="images/hyacinth-3-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix lily">
+
+                    <h1 class="featured__title">Lily</h1>
+
+                    <h3 class="featured__subtitle">Mothers love it</h3>
+
+                    <img src="images/lily-3-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$77</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix rose">
+
+                    <h1 class="featured__title">Rose</h1>
+
+                    <h3 class="featured__subtitle">For dating</h3>
+
+                    <img src="images/rose-4-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$60</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix hyacinth">
+
+                    <h1 class="featured__title">Hyacinth</h1>
+
+                    <h3 class="featured__subtitle">Even men like it</h3>
+
+                    <img src="images/hyacinth-1-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$99</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix carnation">
+
+                    <h1 class="featured__title">Carnation</h1>
+
+                    <h3 class="featured__subtitle">You'll love it</h3>
+
+                    <img src="images/carnation-4-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$89</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix orchid">
+
+                    <h1 class="featured__title">Orchid</h1>
+
+                    <h3 class="featured__subtitle">Fury and beauty together</h3>
+
+                    <img src="images/orchid-2-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$79</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix hyacinth">
+
+                    <h1 class="featured__title">Hyacinth</h1>
+
+                    <h3 class="featured__subtitle">Even men like it</h3>
+
+                    <img src="images/hyacinth-4-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix carnation">
+
+                    <h1 class="featured__title">Carnation</h1>
+
+                    <h3 class="featured__subtitle">You'll love it</h3>
+
+                    <img src="images/carnation-3-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix hyacinth">
+
+                    <h1 class="featured__title">Hyacinth</h1>
+
+                    <h3 class="featured__subtitle">Even men like it</h3>
+
+                    <img src="images/hyacinth-5-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix orchid">
+
+                    <h1 class="featured__title">Orchid</h1>
+
+                    <h3 class="featured__subtitle">Fury and beauty together</h3>
+
+                    <img src="images/orchid-3-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$79</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+
+                <article class="featured__card mix hyacinth">
+
+                    <h1 class="featured__title">Hyacinth</h1>
+
+                    <h3 class="featured__subtitle">Even men like it</h3>
+
+                    <img src="images/hyacinth-2-removebg-preview.png" alt="" class="featured__img" draggable="false">
+
+                    <h3 class="featured__price">$59</h3>
+
+                    <button class="btn featured__button">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="icons__section">
+        <div class="icons">
+            <i class="fa-solid fa-truck-fast"></i>
+            <div class="info">
+                <h3>Free Delivery</h3>
+                <p>On All Orders</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-money-bill"></i>
+            <div class="info">
+                <h3>7 Days Guarantee</h3>
+                <p>Money Back Guarantee</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-gift"></i>
+            <div class="info">
+                <h3>Offer & Gifts</h3>
+                <p>Get Free Flowers</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-credit-card"></i>
+            <div class="info">
+                <h3>Secure Payment</h3>
+                <p>Protected By Paypal</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="review section" id="review">
+        <h2 class="section__title review__title">
+            What our customers say
+        </h2>
+        <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="images/client-1.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/client-2.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+    
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/client-3.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+        
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/client-4.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+        
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/client-5.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+        
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="images/client-6.jpg" alt="" class="image" />
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                    saepe provident dolorem a quaerat quo error facere nihil deleniti
+                    eligendi ipsum adipisci, fugit, architecto amet asperiores
+                    doloremque deserunt eum nemo.
+                    </p>
+        
+                    <i class="fa-solid fa-quote-left quote-icon"></i>
+    
+                    <div class="details">
+                        <p class="name">Marnie Lotter</p>
+                        <p class="job">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-btn"></div>
+            <div class="swiper-button-prev swiper-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="contact__content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, adipiexcepturi quisquam. Accusamus?</p>
+        </div>
+        <div class="contact__container">
+            <div class="contact__info">
+                <div class="box">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>8397 Stockholm, Sweden</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+93985983</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>example@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__form">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="input__box">
+                        <input type="text" required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="input__box">
+                        <input type="text" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="input__box">
+                        <textarea required></textarea>
+                        <span>Your Message</span>
+                    </div>
+                    <div class="input__box">
+                        <a href="#" class="btn">Send</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="images/sunflower.png" alt="" draggable="false"> Flowers
+                </a>
+                <p class="footer__descripiton">
+                    Here you will find the most beautiful flowers <br>
+                    you've ever seen. Never get rejected <br> in a date
+                    again!<br>
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Company
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Flowers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">History</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Shop</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Information
+                </h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Arrange a meeting</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Find a seller</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Services</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Find us on social media
+                </h3>
+
+                <ul class="footer__social">
+                    <a href="#" class="footer__social-link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer__social-link" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copyright">
+            &#169; Flowers. All rights reserved.
+        </span>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        const Button = document.querySelectorAll(".btn")
+
+        Button.forEach(btn => {
+            btn.addEventListener("click", function(e) {
+            let x = e.clientX - e.target.offsetLeft
+            let y = e.clientY - e.target.offsetTop
+
+            let Ripples = document.createElement("span")
+            Ripples.style.left = x + "px"
+            Ripples.style.top = y + "px"
+            this.appendChild(Ripples)
+
+            setTimeout(() => {
+                Ripples.remove()
+            }, 1000)
+        })
+        })
+
+        let mixerFeatured = mixitup('.featured__content', {
+            selectors: {
+                target: '.featured__card'
+            },
+            animation: {
+                duration: 300
+            }
+        })
+
+        const linkFeatured = document.querySelectorAll('.featured__item')
+        
+        function ActiveFeatured() {
+            linkFeatured.forEach(l=> l.classList.remove("active-featured"))
+            this.classList.add("active-featured")
+        }
+        linkFeatured.forEach(l=> l.addEventListener("click", ActiveFeatured))
+
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2500,
+            delay: 400,
+            // reset: true
+        })
+
+        sr.reveal(`.featured__filters`)
+        sr.reveal(`.section__title, .content, .testi-content`, {delay: 500})
+        sr.reveal(`.btn`, {delay: 1000, origin: 'bottom'})
+        sr.reveal(`.contact__content`, {delay: 1000, origin: 'top'})
+        sr.reveal(`.about__group, .contact__info`, {origin: 'left'})
+        sr.reveal(`.about__data, .contact__form`, {origin: 'right'})
+        sr.reveal(`.featured__card, .icons, .footer__content`, {interval: 100})
+    </script>
+</body>
+</html>
